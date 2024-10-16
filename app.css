@@ -1,0 +1,45 @@
+body{
+    font-family: "Epilogue", sans-serif;
+    margin: 0 auto;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 78px;
+    background-color: black;
+    color: white;
+}
+.intro {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    margin-top:25px ;
+    font-size: 25px;
+}
+
+nav img{
+    height: 78px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left:40px
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 27px;
+    margin: 0 auto;
+}
+
+.Introduction {
+    margin: none;
+    height: 1980px;
+
+}
