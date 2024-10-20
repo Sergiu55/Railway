@@ -1,6 +1,6 @@
 body{
     font-family: "Epilogue", sans-serif;
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
 }
 nav{
@@ -9,6 +9,8 @@ nav{
     height: 78px;
     background-color: black;
     color: white;
+    width: auto;
+   
 }
 .intro {
     display: flex;
@@ -17,6 +19,13 @@ nav{
     margin-top:25px ;
     font-size: 25px;
 }
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+    
 
 nav img{
     height: 78px;
@@ -31,15 +40,45 @@ nav ul{
     margin-left:40px
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
+.header{
     font-size: 27px;
     margin: 0 auto;
+    width: 1700px;
+    height: 10px;
+}
+ 
+
+.Text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    display: block;  
+    text-align: center;
+}
+  
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.Buttons
+{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 70%;
+    
 }
 
-.Introduction {
-    margin: none;
-    height: 1980px;
-
-}
