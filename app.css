@@ -115,3 +115,12 @@ input {
     top: 35%;
     left: 57%;
 }
+
+button {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
