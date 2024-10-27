@@ -12,6 +12,7 @@ nav{
     width: auto;
    
 }
+
 .intro {
     display: flex;
     list-style-type: none;
@@ -29,6 +30,9 @@ a:link, a:visited {
 
 nav img{
     height: 78px;
+    position: relative;
+    left: 70px;
+    
 }
 
 nav ul{
@@ -40,13 +44,48 @@ nav ul{
     margin-left:40px
 }
 
+
 .header{
     font-size: 27px;
     margin: 0 auto;
     width: 1700px;
     height: 10px;
 }
- 
+
+
+.button5 {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 40px;
+    padding-top: 25px;
+}
+
+.button5 {
+    background-color: black; 
+    color: white; 
+}
+
+
+.button6 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+}
+
+.button6 {
+    background-color: black; 
+    color: white; 
+}
+
+nav ul li a:link, a:visited {
+    color: black;
+}
 
 .Text {
     position: absolute;
@@ -106,6 +145,7 @@ input {
     position: absolute;
     top: 35%;
     left: 9%;
+    color:black;
 
 }
 
@@ -114,6 +154,7 @@ input {
     position: absolute;
     top: 35%;
     left: 57%;
+    color: black;
 }
 
 button {
@@ -123,4 +164,67 @@ button {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+.container {
+    align-content:space-around;
+}
+
+ul li ul.dropdown {
+    width: 600px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: rgb(252, 252, 252);
+    border: 1px solid black;
+    
+}
+ul li:hover ul.dropdown {
+    display:block;
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-around;
+}
+
+.button2 {
+    border: none;
+    text-align: center;
+    text-decoration:  none;
+    display: inline-block;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: black; 
+    color: white; 
+}
+  
+.button2:hover {
+    background-color:gray;
+}
+
+.button3 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color:white;
 }
