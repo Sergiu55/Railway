@@ -228,3 +228,27 @@ ul li:hover ul.dropdown {
 .button3 {
     background-color:white;
 }
+
+
+input[type="date"]{
+    background-color: gray;
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:60%;
+    left: 30.5%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+}
+
+::webkit-calendar-picker-indicator{
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius:3px ;
+}
