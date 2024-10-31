@@ -3,6 +3,7 @@ body{
     margin: auto;
     width: 100%;
 }
+
 nav{
     display: flex;
     justify-content: center;
@@ -89,19 +90,33 @@ nav ul li a:link, a:visited {
 
 .Text {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 35px;
+    font-size: 33px;
     display: block;  
     text-align: center;
+    font-size: 45px;
 }
+
+.Text2 {
+    position: absolute;
+    top: 30%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    display: block;  
+    text-align: center;
+    padding-right: 155px;
+}
+
   
 .container {
     position: absolute;
-    top: 35%;
-    left: 26%;
+    top: 36%;
+    left: 29%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,8 +124,8 @@ nav ul li a:link, a:visited {
 
 .button {
     background-color: gray;
-    width: 200px;
-    height: 50px;
+    width: 190px;
+    height: 40px;
     border-radius: 100px;
     cursor: pointer;
     position: relative;
@@ -120,8 +135,8 @@ nav ul li a:link, a:visited {
     position: absolute;
     content: '';
     background-color: white;
-    width: 90px;
-    height:40px;
+    width: 79px;
+    height:30px;
     border-radius: 200px;
     margin: 5px;
     transition: 0.2s;
@@ -143,18 +158,20 @@ input {
 .Firstway{
     list-style-type: none;
     position: absolute;
-    top: 35%;
-    left: 9%;
+    top: 27%;
+    left: 6%;
     color:black;
+    font-size: 15px;
 
 }
 
 .SecoundWay {
     list-style-type: none;
     position: absolute;
-    top: 35%;
-    left: 57%;
+    top: 27%;
+    left: 56%;
     color: black;
+    font-size: 15px;
 }
 
 button {
@@ -235,8 +252,8 @@ input[type="date"]{
     padding: 15px;
     position: absolute;
     transform: translate(-50%,-50%);
-    top:60%;
-    left: 30.5%;
+    top:44%;
+    left: 34%;
     font-family: "Roboto Mono",monospace;
     color: #ffffff;
     font-size: 18px;
@@ -252,3 +269,39 @@ input[type="date"]{
     cursor: pointer;
     border-radius:3px ;
 }
+
+#blocktext {
+    margin: auto;
+    max-width: 1064px;
+    padding-top: 20px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.textintable {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 px;
+    border: 1px solid gray !important;
+    border-radius: 20px 20px 20px 20px; 
+    padding-left: 13px;
+}
+
+#threeimagines {
+    margin: auto;
+    max-width: 1064px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 3fr 1fr;
+    position: relative;
+
+}
+
+.button22 {
+    height: 22;
+}
+
