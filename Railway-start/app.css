@@ -91,22 +91,21 @@ nav ul li a:link, a:visited {
 .Text {
     position: absolute;
     top: 25%;
-    left: 49.3%;
+    left: 47.9%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 33px;
+    font-size: 40px;
     display: block;  
     text-align: center;
-    font-size: 43px;
 }
 
 .Text2 {
     position: absolute;
     top: 30%;
-    left: 48%;
+    left: 47%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 43px;
+    font-size: 40px;
     display: block;  
     text-align: center;
     padding-right: 155px;
@@ -123,7 +122,7 @@ nav ul li a:link, a:visited {
 }
 
 .button {
-    background-color: gray;
+    background-color: gainsboro;
     width: 190px;
     height: 40px;
     border-radius: 100px;
@@ -144,7 +143,7 @@ nav ul li a:link, a:visited {
 }
 
 input:checked + .button{
-    background-color: gray;
+    background-color: gainsboro;
 }
 
 input:checked + .button::before{
@@ -248,19 +247,20 @@ ul li:hover ul.dropdown {
 
 
 input[type="date"]{
-    background-color: gray;
+    background-color: white;
     padding: 15px;
     position: absolute;
     transform: translate(-50%,-50%);
     top:44%;
     left: 34.5%;
     font-family: "Roboto Mono",monospace;
-    color: #ffffff;
+    color: gray;
     font-size: 18px;
     border: none;
     outline: none;
     border-radius: 5px;
     display: block;
+    width: 160px;
 }
 
 ::webkit-calendar-picker-indicator{
@@ -360,4 +360,50 @@ h4 {
     color: rgb(0, 0, 0);
     font-weight: bold;
     position: absolute;
+}
+
+.boxContainer {
+    margin:auto;
+    top: 41.5%;
+    left: 40%;
+    position:absolute;
+    width:500px;
+    height: 42px;
+    border: 4px solid white;
+    padding:0px 10px;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+
+.elementsContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align:middle;
+    padding-right: 10px;
+}
+
+.search {
+    border:none;
+    top: 27%;
+    left: 6%;
+    padding: 0px 5px;
+    border-radius:50px;
+    font-size: 40px;
+    font-family: "Nunito";
+    font-weight: 500;
+}
+
+.search:focus {
+    outline:none;
+}
+
+.material-icons {
+    font-size: 26;
+    color: #2980b9;
+}
+
+td a:link, a:visited {
+    color: gray;
+    padding-bottom: 10px;
 }
