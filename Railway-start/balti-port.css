@@ -47,10 +47,13 @@ nav ul{
 
 .header{
     font-size: 27px;
-    margin: 0 auto;
-    width: 1700px;
+    margin: auto;
+    width: auto;
     height: 10px;
+    width: 0px !important;
+    margin: auto;
 }
+
 
 
 .button5 {
@@ -87,25 +90,14 @@ nav ul li a:link, a:visited {
     color: black;
 }
 
-.Text {
+
+.Text1 {
     position: absolute;
     bottom: 70%;
-    left: 47.9%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 40px;
-    display: block;  
-    text-align: center;
-    margin:auto;
-}
-
-.Text2 {
-    position: absolute;
-    bottom: 66%;
-    left: 47%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
+    font-size: 60px;
     display: block;  
     text-align: center;
     padding-right: 155px;
@@ -322,54 +314,10 @@ input[type="date"]{
     height: 80px;
 }
 
-.threeimagines {
-    margin:auto;
-    max-width:770px;
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    grid-template-columns: 3fr 1fr;
-    position: relative;
-    gap: 10px;
-}
 
 
 h4 {
     font-size: 10px;
-}
-
-.textonimagine{
-    margin:auto;
-    max-width:380px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-template-columns: 3fr 1fr;
-    position: relative;
-    gap: 60px;
-    transform: translate(-50%, -50%);
-    filter: blur(6px);
-    -webkit-filter: blur(6px);
-    bottom: 20px;
-}
-
-.textforblur {
-    bottom: 60px;
-    font-size: 15px;
-    right: 515px;
-    gap: 0px 20px 60px;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    margin: auto;
-    width: 100%;
-}
-
-.textforblur1 {
-    position: relative;
-    width: 250px;
 }
 
 .boxContainer {
@@ -417,48 +365,7 @@ td a:link, a:visited {
     padding-bottom: 10px;
 }
 
-.textforblur2 {
-    top: 795px;
-    left: 750px;
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    position: absolute;
+.Portimg {
+    top:100px;
 }
 
-.textforblur3 {
-    top: 795px;
-    left: 1030px;
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    position: absolute;
-}
-
-
-.botext {
-    display: flex;
-    justify-content: center; 
-    color: #6a6a6a;
-    gap:20px;
-    font-size: .875rem;
-    margin:auto;
-    padding-left: 20px;
-}
-
-.botext-item1 {
-    position: relative;
-    width: 250px;
-}
-
-.botext-item2 {
-    position: relative;
-    width: 250px;
-}
-
-.botext-item3 {
-    position: relative;
-    width: 250px;
-}
