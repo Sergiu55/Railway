@@ -264,7 +264,7 @@ input[type="date"]{
 
 #blocktext {
     max-width: 760px;
-    padding-top: 60px;
+    padding-top: 30px;
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 4fr 1fr 1fr 1fr;
@@ -372,8 +372,6 @@ td a:link, a:visited {
     width: 100%;
     max-width: 1440px;
     padding-inline: 56px;
-    margin-bottom:150px;
-    margin-top: 150px;
 }
 
 .background3 {
@@ -384,7 +382,7 @@ td a:link, a:visited {
     height: 160px;
     width:800px;
     object-fit: cover;
-    top: 75%;
+    top: 63%;
     left: 30%;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
@@ -408,6 +406,8 @@ td a:link, a:visited {
     font-weight: 500;
     color:white;
     width: 300px;
+    position: relative;
+    top:50px
 }
 
 .hey3 {
@@ -418,6 +418,8 @@ td a:link, a:visited {
     height: 80px;
     color: white;
     background-color: black;
+    position: relative;
+    top:50px
 }
 
 .hey4 {
@@ -428,6 +430,8 @@ td a:link, a:visited {
     height: 80px;
     background-color: black;
     color: white;
+    position: relative;
+    top:50px
 }
 
 
@@ -435,3 +439,49 @@ td a:link, a:visited {
     top:100px;
 }
 
+.blockinner {
+    max-width: 1024px;
+    left: 20px;
+    margin: 0 auto;
+    min-height: 84px;
+    position: relative;
+    top:125px;
+}
+
+.facts {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.factfastettrip {
+    background: #fff;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 16px;
+    min-width: 15%;
+    padding: 12px 0;
+}
+
+.fastettrip {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tittletext {
+    color: #666766;
+    display: flex;
+    height: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.factvalue {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
