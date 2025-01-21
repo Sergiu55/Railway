@@ -462,3 +462,95 @@ td a:link, a:visited {
     position: relative;
     width: 250px;
 }
+
+.dam {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    text-align: center;
+}
+.feature {
+    flex: 1;
+    padding: 10px;
+}
+.trusted {
+    text-align: center;
+    margin: 40px 0;
+}
+.trusted h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+.search-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.search-button:hover {
+    background-color: #e6b800;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.footer .links div {
+    margin: 10px 20px;
+}
+.footer .links div a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.footer .links div a:hover {
+    text-decoration: underline;
+}
+.footer .apps {
+    margin: 20px 0;
+}
+.footer .apps img {
+    width: 120px;
+    margin: 0 10px;
+}
+.footer p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
